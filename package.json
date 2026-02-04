@@ -1,0 +1,21 @@
+{
+  "name": "coursera-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server for Coursera - integrates with Poke AI",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:stdio": "node src/server.js",
+    "start:http": "node src/http-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-html-parser": "^6.1.13"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
